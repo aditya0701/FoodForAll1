@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "363617872096",
+    "firebase_url": "https://foodforall-5c56d.firebaseio.com",
+    "project_id": "foodforall-5c56d",
+    "storage_bucket": "foodforall-5c56d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363617872096:android:e2da67793abccfe8088885",
+        "android_client_info": {
+          "package_name": "com.example.foodforall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363617872096-3om1fg3rjj2fd3djs4h5g7c2n7h40er4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.foodforall",
+            "certificate_hash": "94916f3efb93b7f580b72ae631fc3ba2b1b7eb5f"
+          }
+        },
+        {
+          "client_id": "363617872096-ttbplp705ljolb9tguciois3snqgf9ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtL2JKYGbcpArsSecpwoWVZrxCLCgg_UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363617872096-ttbplp705ljolb9tguciois3snqgf9ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
