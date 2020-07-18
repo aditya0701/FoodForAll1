@@ -2,9 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:map="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    tools:context=".NgoMapActivity" >
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".NgoMapActivity">
 
     <fragment
         android:id="@+id/map"
@@ -12,26 +13,38 @@
         android:layout_width="match_parent"
         android:layout_height="679dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="52dp"
-        />
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp" />
 
     <Button
         android:id="@+id/btnSetting"
-        android:layout_width="202dp"
+        android:layout_width="159dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:text="Setting" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/round_bg"
+        android:text="Setting"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnLogout"
-        android:layout_width="202dp"
+        android:layout_width="167dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:text="Logout" />
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/round_bg"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 </RelativeLayout>
