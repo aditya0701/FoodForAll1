@@ -5,4 +5,5 @@ Its initial purpose was to provide a solution to the world hunger problem.
 
 Software used: 1.Android Studio
                2.Java
+               3.XMl for UI
                3.GeoFire(For location transfering between user and Ngo)
